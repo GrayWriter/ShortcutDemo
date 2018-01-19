@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ShortCutDemo</string>
+    <string name="short_label">short</string>
+    <string name="long_label">long</string>
+    <string name="msg">Msg</string>
+    <string name="short_label1">short-1</string>
+    <string name="long_label1">long-1</string>
+    <string name="msg1">Msg-1</string>
+    <string name="perm">test</string>
+    <string name="perm_group">test_group</string>
+</resources>

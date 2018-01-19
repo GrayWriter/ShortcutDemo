@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.neal.shortcutdemo.MyGV xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.neal.shortcutdemo.MainActivity"
+    android:id="@+id/container"
+    android:fitsSystemWindows="false"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="创建传统桌面快捷方式"
+        android:id="@+id/create_older_shortcut"
+      />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SetDynamicShortcut"
+        android:id="@+id/set_dynamic"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AddDynamic"
+        android:id="@+id/add_dynamic"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UpdateDynamic"
+        android:id="@+id/update_dynamic"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RemoveDynamic"
+        android:id="@+id/remove_dynamic"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RemoveAllDynamic"
+        android:id="@+id/remove_all_dynamic"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PinShortcut"
+        android:id="@+id/pin_shortcut"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AdapterBitmap"
+        android:id="@+id/adapter_bitmap"/>
+
+
+
+</com.example.neal.shortcutdemo.MyGV>
